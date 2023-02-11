@@ -43,7 +43,7 @@ html > p, body > p {
   height: 508.5px;
   box-sizing: border-box;
   background-color: #000000d4;
-  background: url(back.jpg);
+  background: url(backtest.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -72,6 +72,7 @@ html > p, body > p {
   width: 100%;
   padding: 20px 0 50px 0;
   overflow: hidden;
+  will-change: transform;
 }
 .carousel__body .carousel__slider {
   position: relative;

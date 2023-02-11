@@ -1,7 +1,7 @@
 (function() {
   "use strict";
 
-  var carousel = document.getElementsByClassName('carousel')[0],
+   var carousel = document.getElementsByClassName('carousel')[0],
       slider = carousel.getElementsByClassName('carousel__slider')[0],
       items = carousel.getElementsByClassName('carousel__slider__item'),
       prevBtn = carousel.getElementsByClassName('carousel__prev')[0],

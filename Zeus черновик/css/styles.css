@@ -71,6 +71,7 @@
 .item__3d-frame__box img {
     width: 635px;
     height: 468.5px;
+    will-change: transform;
 
 }
 
