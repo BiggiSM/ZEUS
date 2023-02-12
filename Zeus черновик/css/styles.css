@@ -1,3 +1,11 @@
+.head {
+    background-color: #000;
+}
+
+.navbar.navbar-expand-lg {
+    height: 11vh;
+}
+
 .navbar-nav .nav-link {
     color: white;
 }
