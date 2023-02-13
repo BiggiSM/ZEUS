@@ -83,3 +83,12 @@
 
 }
 
+.col > p > img {
+    height: 25px;
+    width: 25px;
+}
+
+.col > a > img {
+    height: 200px;
+    width: 200px;
+}
