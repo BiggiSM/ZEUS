@@ -1,0 +1,12 @@
+.brand {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+}
+
+.brand > img {
+    height: 661px;
+    width: 100%;
+    padding: 20px;
+    
+}
