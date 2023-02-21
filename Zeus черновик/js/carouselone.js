@@ -9,7 +9,7 @@
   
   var width, height, totalWidth, margin = 20,
       currIndex = 0,
-      interval, intervalTime = 4000;
+      interval, intervalTime = 6000;
   
   function init() {
       resize();

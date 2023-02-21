@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "greece";
+  src: url(../fonts/ds-greece-2.ttf) format(truetype);
+  font-style: normal;
+  font-weight: normal;
+}
+
 :root {
   --crsl-bg: transparent;
   --box-bg: #1e272e;
@@ -142,3 +149,22 @@ html > p, body > p {
   height: 468.5px !important;
   width: 638px !important;
 } */
+
+.description {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.description > p {
+  padding-left: 220px;
+  padding-right: 100px;
+  padding-top: 400px;
+  z-index: 2;
+  font-family: "greece";
+}

@@ -1,12 +1,12 @@
 .brand {
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background-color: black;
 }
 
 .brand > img {
-    height: 661px;
+    height: 722px;
     width: 100%;
     padding: 20px;
-    
+
 }

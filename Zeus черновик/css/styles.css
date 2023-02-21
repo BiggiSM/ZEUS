@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "greece";
+    src: url(../fonts/ds-greece-2.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
 .head {
     background-color: #000;
 }
@@ -7,14 +14,27 @@
 }
 
 .navbar-nav .nav-link {
-    color: white;
+    color: gold;
+    font-family: "greece";
+    font-size: 24px;
+
 }
 
 .navbar-brand img {
     background-color: black;
 }
 
-.videoprev video {
+.videoprev {
+    background: url(backtest.jpg);
+}
+
+.videoprev > img {
+    height: 616px;
+    width: 1680px;
+
+}
+
+/* .videoprev video {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -23,7 +43,7 @@
     object-fit: cover;
     background-color: black;
 
-}
+} */
 
 .firstblock {
     height: 80vh;
@@ -31,8 +51,8 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center
-    
+    align-items: center;
+    background-color: #000;
 }
 
 .titlebookzeus {
@@ -96,4 +116,8 @@
 .modal-body > img {
     width: 1100px;
     height: 700px;
+}
+
+.col > p {
+    font-size: 22px;
 }

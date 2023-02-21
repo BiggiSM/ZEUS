@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "greece";
+  src: url(../fonts/ds-greece-2.ttf) format(truetype);
+  font-style: normal;
+  font-weight: normal;
+}
+
+
 .containerbox {
     display: flex;
     width: 100%;
@@ -5,6 +13,7 @@
     box-sizing: border-box;
     height: 100vh;
     background-color: rgb(10, 10, 10);
+    background: url(backtest.jpg);
   }
   
   .box {
@@ -31,6 +40,7 @@
     line-height: 2.6;
     background-color: black;
     color: white;
+    font-family: "greece";
   }
   
   .box.white > span {
@@ -40,6 +50,7 @@
     height: 10vh;
     line-height: 2.6;
     background-color: white;
+    font-family: "greece";
   }
   
   .box:hover { flex: 1 1 50%; }
@@ -49,7 +60,7 @@
   }
 
   .getprice {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(0, 0, 0);
     padding-bottom: 10px;
   }
   
@@ -59,7 +70,11 @@
 
   .d-grid > button {
     background-color: black;
-    border-color: black;
+    border-color: rgb(78, 78, 78);
   }
 
-  
+  .modal-content {
+    background-color: rgb(07, 07, 07);
+    color: white;
+
+  }
